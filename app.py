@@ -46,7 +46,7 @@ def escolhe_opcao():
         opcao_invalida()
 
 def mostrar_camiseta():
-    exbir_subtitulo('Listar nadadores')
+    exbir_subtitulo('Listar camiseta')
 
     for camiseta in camiseta:
         nome_camiseta = camiseta['nome']
@@ -69,10 +69,10 @@ def alterar_estado_camiseta():
 
             print(mensagem)
     if not camiseta_encontrado:
-        print('O nadador ou nadadora não existe')
+        print('O camiseta ou camiseta não existe')
 
 def finalizar_programa():
-    os.system('clear')
+    os.system('cle')
     print('Finalizando programa')
 
 def opcao_invalida():
